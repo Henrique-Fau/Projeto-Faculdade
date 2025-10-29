@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carros</title>
+    <link rel="stylesheet" href="carioca.css">
+    
+<style>
+    body {
+      background-image: url(background_site.png);
+      font-family: 'Poppins', sans-serif;
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
+      padding: 30px;
+    }
+
+    .mensagens-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+      max-width: 1000px;
+    }
+
+    .mensagem-card {
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(8px);
+      border-radius: 12px;
+      box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+      padding: 15px;
+      width: 180px;
+      text-align: center;
+      font-size: 0.9rem;
+      line-height: 1.4;
+      transition: transform 0.3s ease, background 0.3s ease;
+    }
+
+    .mensagem-card:hover {
+      background: rgba(255, 255, 255, 0.2);
+      transform: translateY(-5px);
+    }
+
+    @media (max-width: 768px) {
+      .mensagem-card {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+    <h1>CARROS</h1> <br> 
+  <div class="mensagens-container">
+    <div class="mensagem-card">"Deixe seu sorriso mudar o mundo, mas não deixe que o mundo mude seu sorriso"</div>
+    <div class="mensagem-card">"Deus é maior que qualquer dor que você possa estar sentindo"</div>
+    <div class="mensagem-card">"Pequenos passos também são progresso para quem sonha alto"</div>
+    <div class="mensagem-card">"Cuide da sua mente todos os dias, só você tem o controle da mesma"</div>
+    <div class="mensagem-card">"Continue, mesmo quando for difícil, depois da chuva que vem o arco-íris"</div>
+    <div class="mensagem-card">"Tudo que é seu encontra o caminho até você, não se preocupe"</div>
+  </div>
+    
+</body>

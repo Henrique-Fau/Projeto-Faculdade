@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cliente</title>
+    <link rel="stylesheet" href="carioca.css">
+    
+    <style>
+    body {
+      background-image: url(background_site.png);
+      font-family: 'Poppins', sans-serif;
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
+      padding: 30px;
+    }
+
+    .cliente-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      max-width: 1200px;
+    }
+
+    .cliente-card {
+      background: rgba(255, 255, 255, 0.08);
+      backdrop-filter: blur(8px);
+      border-radius: 16px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.25);
+      padding: 20px;
+      width: 260px;
+      text-align: left;
+      transition: transform 0.3s ease;
+    }
+
+    .cliente-card:hover {
+      transform: translateY(-5px);
+    }
+
+    h5 {
+      text-align: center;
+      font-size: 1.1rem;
+      margin-bottom: 15px;
+      letter-spacing: 0.5px;
+      color: #f5f5f5;
+    }
+
+    ul.cliente-dados {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    ul.cliente-dados li {
+      background: rgba(255, 255, 255, 0.08);
+      margin: 6px 0;
+      padding: 8px 10px;
+      border-radius: 8px;
+      font-size: 0.85rem;
+      line-height: 1.4;
+      transition: background 0.3s ease;
+    }
+
+    ul.cliente-dados li:hover {
+      background: rgba(255, 255, 255, 0.15);
+    }
+
+    strong {
+      color: #9fe7ff;
+    }
+
+    @media (max-width: 768px) {
+      .cliente-card {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>CLIENTES</h1>
+  <div class="cliente-container">
+
+    <div class="cliente-card">
+  <h5>Cliente</h5>
+  <ul class="cliente-dados">
+    <li><strong>Lucas Andrade Ferreira</strong></li> 
+    <li><strong>Marina Costa Silveira</strong></li> 
+    <li><strong>Henrique Ramos Dutra</strong></li> 
+    <li><strong>Gabriela Mendes Castro</strong></li> 
+    <li><strong>João Victor Almeida Rocha</strong></li> 
+  </ul>
+</div>
+
+<div class="cliente-card">
+  <h5>Número</h5>
+  <ul class="cliente-dados">
+    <li><strong>(11) 98245-3176</strong></li>
+    <li><strong>(41) 99764-2083</strong></li>
+    <li><strong>(71) 98512-4460</strong></li>
+    <li><strong>(21) 99973-1205</strong></li>
+    <li><strong>(14) 99418-7621</strong></li>
+  </ul>
+</div>
+
+<div class="cliente-card">
+  <h5>Email</h5>
+  <ul class="cliente-dados">
+    <li><strong>lucas.ferreira.lf@gmail.com</strong></li>
+    <li><strong>marina.silveira23@gmail.com</strong></li>
+    <li><strong>henrique.dutra04@gmail.com</strong></li>
+    <li><strong>g_mendes.castro@gmail.com</strong></li>
+    <li><strong>joaovictor.rocha87@gmail.com</strong></li>
+  </ul>
+</div>
+
+  </div>
+</body>

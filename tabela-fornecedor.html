@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suporte</title>
+    <style>
+        body {
+            background-image: url(background_site.png);
+            font-family: 'Poppins', sans-serif;
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 30px;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .container-cards {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .Número-card {
+            background: rgba(255, 255, 255, 0.08);
+            backdrop-filter: blur(8px);
+            border-radius: 16px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.25);
+            padding: 20px;
+            width: 260px;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .Número-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .destaque1 {
+            font-weight: bold;
+            color: #9fe7ff;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Aqui disponibilizamos links de números de psicólogos:</h1>
+    
+    <div class="container-cards">
+        <div class="Número-card">
+            <p>Número do psicólogo Henrique Faustino Dos Santos</p>
+            <p class="destaque1">+55 11 93012-8533</p>
+        </div>
+
+        <div class="Número-card">
+            <p>Número da psicóloga Giovana Oliveira Dos Santos</p>
+            <p class="destaque1">+55 11 95165-2414</p>
+        </div>
+    </div>
+
+</body>
+</html>
